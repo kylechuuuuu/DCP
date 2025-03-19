@@ -1,0 +1,49 @@
+train:
+  experiments: 'test24'
+  seed: 42
+  epochs: 650
+  val_interval_epochs: 10
+  batch_size: 1
+  train_size: 192
+  lr: 0.0001
+  weight_decay: 0.000001
+
+# DRIVE
+datasets:
+  train:
+    data_image: ./datasets/DRIVE/train/image
+    data_annotation_mask: ./datasets/DRIVE/train/annotation_mask
+
+  val:
+    data_image: ./datasets/DRIVE/val/image
+    data_annotation_mask: ./datasets/DRIVE/val/annotation_mask
+
+# # CHASEDB1
+# datasets:
+#   train:
+#     data_image: ./datasets/CHASEDB1/train/image
+#     data_annotation_mask: ./datasets/CHASEDB1/train/annotation_mask
+
+#   val:
+#     data_image: ./datasets/CHASEDB1/val/image
+#     data_annotation_mask: ./datasets/CHASEDB1/val/annotation_mask
+
+# # CRACK200
+# datasets:
+#   train:
+#     data_image: ./datasets/CRACK200/train/image
+#     data_annotation_mask: ./datasets/CRACK200/train/annotation_mask
+
+#   val:
+#     data_image: ./datasets/CRACK200/val/image
+#     data_annotation_mask: ./datasets/CRACK200/val/annotation_mask
+
+# # XCAD
+# datasets:
+#   train:
+#     data_image: ./datasets/XCAD/train/image
+#     data_annotation_mask: ./datasets/XCAD/train/annotation_mask
+
+#   val:
+#     data_image: ./datasets/XCAD/val/image
+#     data_annotation_mask: ./datasets/XCAD/val/annotation_mask
