@@ -5,8 +5,8 @@ train:
   val_interval_epochs: 10
   batch_size: 1
   train_size: 192
-  lr: 0.0001
-  weight_decay: 0.000001
+  lr: 0.0002
+  weight_decay: 0.00005
 
 # DRIVE
 datasets:
