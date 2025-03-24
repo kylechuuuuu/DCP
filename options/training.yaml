@@ -1,12 +1,12 @@
 train:
   experiments: 'test24'
   seed: 42
-  epochs: 650
+  epochs: 350
   val_interval_epochs: 10
-  batch_size: 1
-  train_size: 192
+  batch_size: 2
+  train_size: 176
   lr: 0.0002
-  weight_decay: 0.00005
+  weight_decay: 0.000005
 
 # DRIVE
 datasets:
